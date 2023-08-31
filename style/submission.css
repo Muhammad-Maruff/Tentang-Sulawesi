@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+body {
+  font-family: "QuickSand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+  font-size: 17px;
+  background-color: burlywood;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: blue;
+  text-align: center;
+  font-size: 300%;
+}
+
+h3 {
+  text-align: left;
+}
+
+.backhead {
+  font-size: 30px;
+  padding: 30px;
+  color: yellow;
+  background-color: springgreen;
+  width: 100%;
+}
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: springgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: limegreen;
+  padding: 5px;
+  top: 0;
+  position: sticky;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: yellow;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: green;
+}
+
+.image-article {
+  width: 100%;
+  max-height: 400px;
+}
+
+.buttondown {
+  position: relative;
+  display: inline-block;
+}
+
+.buttondown-content {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 3px;
+  margin-left: 50px;
+  border: 5px solid blue;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: springgreen;
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+  height: 250px;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgb(3, 28, 245);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: wheat;
+}
+
+button {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+  border: 5px solid blue;
+  background: burlywood;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 50px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.buttonbtn {
+  padding: 16px;
+  background-color: blue;
+  color: yellow;
+  font-size: 20px;
+  border: 4px solid yellow;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.show {
+  display: block;
+}
